@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogando uma moeda</title>
+    <link rel="stylesheet" href="./coinObject/reset.css">
+    <link rel="stylesheet" href="./coinObject/coinObject.css">
+</head>
+
+<body style="background-image: url(./coinObject/background.jpg); background-repeat:no-repeat; background-size: 100%;">
+
+    <audio autoplay loop="true">
+        <source src="./coinObject/86.mp3" type="audio/mpeg">
+    </audio>
+
+    <section class="instructions">
+        <h1>Zenny: Cara ou Coroa</h1>
+        <p>Hoje você fará um teste dos justiceiros!</p>
+        <p>Terá que jogar cara ou coroa!</p>
+        <figure>
+            <img src="./coinObject/Cara_ou_Coroa.gif" alt="Gif introdução">
+            <figcaption>Gif introdução</figcaption>
+        </figure>
+        <button id="instructions__start">Vamos jogar!</button>
+    </section>
+
+    <main class="game">
+        <div class="game__buttons">
+            <button id="flip1">Jogue uma moeda!</button>
+            <button id="flip20">Jogue vinte moedas!!</button>
+            <button class="back" id="backToStart">Voltar a tela inicial</button>
+        </div>
+        <div class="game__container">
+            <figure>
+                <img class="game__character" src="./coinObject/Move_gif.gif" alt="Personagem">
+                <figcaption>Personagem</figcaption>
+            </figure>
+        </div>
+    </main>
+
+    <script src="./coinObject/coinObject.js"></script>
+</body>
+
+</html>
